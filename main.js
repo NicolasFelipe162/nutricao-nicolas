@@ -1,11 +1,10 @@
-alert('ALERT TESTE');
-console.log('CONSOLE TESTE')
+var titulo = document.querySelector('.titulo');
+titulo.textContent = "Nícolas Nutrição";
 
-var titulo = document.querySelector('h1');
-titulo.textContent = 'TITULO';
+var paciente = document.querySelector('#primeiro-paciente');
 
-var trPaulo = document.querySelector('#paulo');
-console.log(trPaulo);
+var tdPeso = paciente.querySelector('.info-peso');
+var peso = tdPeso.textContent;
 
-var tdPeso = trPaulo.querySelector('.info-peso');
-tdPeso.textContent = "150";
+var tdAltura = paciente.querySelector('.info-altura');
+var altura = tdAltura.textContent;
